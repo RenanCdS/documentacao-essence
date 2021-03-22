@@ -18,12 +18,11 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/alphas/client/client-index/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
-        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

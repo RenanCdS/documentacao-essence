@@ -4,4 +4,4 @@ title: Clientes
 sidebar_label: Apresentação
 ---
 
-![Diagrama da área de cliente](/img/client/client-diagram.jpeg)
+![Diagrama da área de cliente](/img/client/client-diagram.png)
