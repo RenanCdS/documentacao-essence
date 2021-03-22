@@ -4,6 +4,7 @@ module.exports = {
     Alphas: [
       {
         Cliente: [
+          'alphas/client/client-index',
           'alphas/client/opportunity',
           {
             Stakeholder: [
@@ -16,10 +17,18 @@ module.exports = {
             ]
           }
         ],
-        'Solução': ['alphas/solution/requirements', 'alphas/solution/software-system'],
-        'Esforço': ['alphas/endeavor/team', 'alphas/endeavor/way-of-working', 'alphas/endeavor/work']
+        'Solução': [
+          'alphas/solution/solution-index',
+          'alphas/solution/requirements',
+          'alphas/solution/software-system'
+        ],
+        'Esforço': [
+          'alphas/endeavor/endeavor-index',
+          'alphas/endeavor/team', 'alphas/endeavor/way-of-working',
+          'alphas/endeavor/work'
+        ]
       }
     ],
-    'Competências': [],
+    'Competências': ['doc1',],
   },
 };
