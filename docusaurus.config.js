@@ -38,11 +38,11 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/',
+              to: 'docs/alphas/client/client-index/',
             },
             {
               label: 'Second Doc',
-              to: 'docs/doc2/',
+              to: 'docs/alphas/client/client-index/',
             },
           ],
         },
