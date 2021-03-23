@@ -3,7 +3,7 @@ module.exports = {
   title: 'Processo de desenvolvimento de software mobile - Essence',
   tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/documentacao-essence/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
