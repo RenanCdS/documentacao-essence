@@ -14,7 +14,7 @@ module.exports = {
       title: 'Processo de desenvolvimento de software mobile - Essence',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {

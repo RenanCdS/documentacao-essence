@@ -4,4 +4,4 @@ title: Esforço
 sidebar_label: Apresentação
 ---
 
-![Diagrama da área de esforço](/img/endeavor/endeavor-diagram.jpeg)
+![Diagrama da área de esforço](/img/endeavor/endeavor-diagram.png)
