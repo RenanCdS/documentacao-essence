@@ -42,7 +42,7 @@ export default function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/alphas/client/client-index/')}>
+              to={useBaseUrl('docs/areas/client/client-index')}>
               Visualizar o processo
             </Link>
           </div>

@@ -4,19 +4,19 @@ module.exports = {
     Areas: [
       {
         Cliente: [
-          'alphas/client/client-index',
+          'areas/client/client-index',
           {
             Alphas: [
               {
                 Oportunidade: [
                   {
                     Estados: [
-                      'alphas/client/opportunity/levels/addressed',
-                      'alphas/client/opportunity/levels/benefit-accrued',
-                      'alphas/client/opportunity/levels/identified',
-                      'alphas/client/opportunity/levels/solution-needed',
-                      'alphas/client/opportunity/levels/value-established',
-                      'alphas/client/opportunity/levels/viable',
+                      'areas/client/alphas/opportunity/levels/addressed',
+                      'areas/client/alphas/opportunity/levels/benefit-accrued',
+                      'areas/client/alphas/opportunity/levels/identified',
+                      'areas/client/alphas/opportunity/levels/solution-needed',
+                      'areas/client/alphas/opportunity/levels/value-established',
+                      'areas/client/alphas/opportunity/levels/viable',
                     ]
                   },
                   {
@@ -25,8 +25,8 @@ module.exports = {
                         'Visão do produto': [
                           {
                             Atividades: [
-                              'alphas/client/opportunity/product/activities/identify-needs',
-                              'alphas/client/opportunity/product/activities/preview-solution',
+                              'areas/client/alphas/opportunity/product/activities/identify-needs',
+                              'areas/client/alphas/opportunity/product/activities/preview-solution',
                             ]
                           }
                         ]
@@ -39,25 +39,17 @@ module.exports = {
                 Stakeholder: [
                   {
                     Estados: [
-                      'alphas/client/stakeholder/levels/in-agreement',
-                      'alphas/client/stakeholder/levels/involved',
-                      'alphas/client/stakeholder/levels/recognized',
-                      'alphas/client/stakeholder/levels/represented',
-                      'alphas/client/stakeholder/levels/satisfied-for-deployment',
-                      'alphas/client/stakeholder/levels/satisfied-in-use',
+                      'areas/client/alphas/stakeholder/levels/in-agreement',
+                      'areas/client/alphas/stakeholder/levels/involved',
+                      'areas/client/alphas/stakeholder/levels/recognized',
+                      'areas/client/alphas/stakeholder/levels/represented',
+                      'areas/client/alphas/stakeholder/levels/satisfied-for-deployment',
+                      'areas/client/alphas/stakeholder/levels/satisfied-in-use',
                     ]
                   },
                   {
                     Produtos: [
-                      {
-                        'Rede de Stakeholders': [
-                          {
-                            Atividades: [
-                              'alphas/client/stakeholder/product/activities/stakeholder-identification'
-                            ]
-                          }
-                        ]
-                      }
+                      'areas/client/alphas/stakeholder/product/stakeholder-network/stakeholder-network-index'
                     ]
                   }
                 ]
@@ -66,19 +58,19 @@ module.exports = {
           }
         ],
         'Solução': [
-          'alphas/solution/solution-index',
+          'areas/solution/solution-index',
           {
             Alphas: [
               {
                 Requisitos: [
                   {
                     Estados: [
-                      'alphas/client/opportunity/levels/addressed',
-                      'alphas/client/opportunity/levels/benefit-accrued',
-                      'alphas/client/opportunity/levels/identified',
-                      'alphas/client/opportunity/levels/solution-needed',
-                      'alphas/client/opportunity/levels/value-established',
-                      'alphas/client/opportunity/levels/viable',
+                      'areas/client/alphas/opportunity/levels/addressed',
+                      'areas/client/alphas/opportunity/levels/benefit-accrued',
+                      'areas/client/alphas/opportunity/levels/identified',
+                      'areas/client/alphas/opportunity/levels/solution-needed',
+                      'areas/client/alphas/opportunity/levels/value-established',
+                      'areas/client/alphas/opportunity/levels/viable',
                     ]
                   },
                   {
@@ -87,8 +79,8 @@ module.exports = {
                         'Visão do produto': [
                           {
                             Atividades: [
-                              'alphas/client/opportunity/product/activities/identify-needs',
-                              'alphas/client/opportunity/product/activities/preview-solution',
+                              'areas/client/alphas/opportunity/product/activities/identify-needs',
+                              'areas/client/alphas/opportunity/product/activities/preview-solution',
                             ]
                           }
                         ]
@@ -101,12 +93,12 @@ module.exports = {
                 'Sistema de software': [
                   {
                     Estados: [
-                      'alphas/client/stakeholder/levels/in-agreement',
-                      'alphas/client/stakeholder/levels/involved',
-                      'alphas/client/stakeholder/levels/recognized',
-                      'alphas/client/stakeholder/levels/represented',
-                      'alphas/client/stakeholder/levels/satisfied-for-deployment',
-                      'alphas/client/stakeholder/levels/satisfied-in-use',
+                      'areas/client/alphas/stakeholder/levels/in-agreement',
+                      'areas/client/alphas/stakeholder/levels/involved',
+                      'areas/client/alphas/stakeholder/levels/recognized',
+                      'areas/client/alphas/stakeholder/levels/represented',
+                      'areas/client/alphas/stakeholder/levels/satisfied-for-deployment',
+                      'areas/client/alphas/stakeholder/levels/satisfied-in-use',
                     ]
                   },
                   {
@@ -115,7 +107,7 @@ module.exports = {
                         'Rede de Stakeholders': [
                           {
                             Atividades: [
-                              'alphas/client/stakeholder/product/activities/stakeholder-identification'
+                              'areas/client/alphas/stakeholder/product/activities/stakeholder-identification'
                             ]
                           }
                         ]
@@ -128,19 +120,19 @@ module.exports = {
           }
         ],
         'Esforço': [
-          'alphas/endeavor/endeavor-index',
+          'areas/endeavor/endeavor-index',
           {
             Alphas: [
               {
                 Time: [
                   {
                     Estados: [
-                      'alphas/client/opportunity/levels/addressed',
-                      'alphas/client/opportunity/levels/benefit-accrued',
-                      'alphas/client/opportunity/levels/identified',
-                      'alphas/client/opportunity/levels/solution-needed',
-                      'alphas/client/opportunity/levels/value-established',
-                      'alphas/client/opportunity/levels/viable',
+                      'areas/client/alphas/opportunity/levels/addressed',
+                      'areas/client/alphas/opportunity/levels/benefit-accrued',
+                      'areas/client/alphas/opportunity/levels/identified',
+                      'areas/client/alphas/opportunity/levels/solution-needed',
+                      'areas/client/alphas/opportunity/levels/value-established',
+                      'areas/client/alphas/opportunity/levels/viable',
                     ]
                   },
                   {
@@ -149,8 +141,8 @@ module.exports = {
                         'Visão do produto': [
                           {
                             Atividades: [
-                              'alphas/client/opportunity/product/activities/identify-needs',
-                              'alphas/client/opportunity/product/activities/preview-solution',
+                              'areas/client/alphas/opportunity/product/activities/identify-needs',
+                              'areas/client/alphas/opportunity/product/activities/preview-solution',
                             ]
                           }
                         ]
@@ -163,12 +155,12 @@ module.exports = {
                 'Maneira de trabalhar': [
                   {
                     Estados: [
-                      'alphas/client/stakeholder/levels/in-agreement',
-                      'alphas/client/stakeholder/levels/involved',
-                      'alphas/client/stakeholder/levels/recognized',
-                      'alphas/client/stakeholder/levels/represented',
-                      'alphas/client/stakeholder/levels/satisfied-for-deployment',
-                      'alphas/client/stakeholder/levels/satisfied-in-use',
+                      'areas/client/alphas/stakeholder/levels/in-agreement',
+                      'areas/client/alphas/stakeholder/levels/involved',
+                      'areas/client/alphas/stakeholder/levels/recognized',
+                      'areas/client/alphas/stakeholder/levels/represented',
+                      'areas/client/alphas/stakeholder/levels/satisfied-for-deployment',
+                      'areas/client/alphas/stakeholder/levels/satisfied-in-use',
                     ]
                   },
                   {
@@ -177,7 +169,7 @@ module.exports = {
                         'Rede de Stakeholders': [
                           {
                             Atividades: [
-                              'alphas/client/stakeholder/product/activities/stakeholder-identification'
+                              'areas/client/alphas/stakeholder/product/activities/stakeholder-identification'
                             ]
                           }
                         ]
@@ -190,12 +182,12 @@ module.exports = {
                 Trabalho: [
                   {
                     Estados: [
-                      'alphas/client/stakeholder/levels/in-agreement',
-                      'alphas/client/stakeholder/levels/involved',
-                      'alphas/client/stakeholder/levels/recognized',
-                      'alphas/client/stakeholder/levels/represented',
-                      'alphas/client/stakeholder/levels/satisfied-for-deployment',
-                      'alphas/client/stakeholder/levels/satisfied-in-use',
+                      'areas/client/alphas/stakeholder/levels/in-agreement',
+                      'areas/client/alphas/stakeholder/levels/involved',
+                      'areas/client/alphas/stakeholder/levels/recognized',
+                      'areas/client/alphas/stakeholder/levels/represented',
+                      'areas/client/alphas/stakeholder/levels/satisfied-for-deployment',
+                      'areas/client/alphas/stakeholder/levels/satisfied-in-use',
                     ]
                   },
                   {
@@ -204,7 +196,7 @@ module.exports = {
                         'Rede de Stakeholders': [
                           {
                             Atividades: [
-                              'alphas/client/stakeholder/product/activities/stakeholder-identification'
+                              'areas/client/alphas/stakeholder/product/activities/stakeholder-identification'
                             ]
                           }
                         ]

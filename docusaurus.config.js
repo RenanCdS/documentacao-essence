@@ -18,7 +18,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/alphas/client/client-index/',
+          to: 'docs/areas/client/client-index',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -38,12 +38,8 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/alphas/client/client-index/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/alphas/client/client-index/',
-            },
+              to: 'docs/areas/client/client-index',
+            }
           ],
         },
         {
