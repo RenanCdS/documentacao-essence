@@ -1,6 +1,5 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
     Areas: [
       {
         Cliente: [
@@ -194,6 +193,6 @@ module.exports = {
         ]
       }
     ],
-    'Competências': ['doc1',],
+    'Competências': ['competences/product-representative'],
   },
 };
