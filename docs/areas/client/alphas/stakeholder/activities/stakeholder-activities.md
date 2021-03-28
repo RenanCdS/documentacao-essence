@@ -11,5 +11,5 @@ sidebar_label: Atividades
 
 Reunião realizada a cada iteração junto ao time para identficar, através de debates e análises, os principais stakeholders presentes no projeto bem como a relação entre os mesmos.
 
-#### Competência => [Representante do produto](https://google.com)
+#### Competência => [Representante do produto](/docs/competences/product-representative)
 

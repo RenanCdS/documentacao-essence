@@ -193,6 +193,14 @@ module.exports = {
         ]
       }
     ],
-    'Competências': ['competences/product-representative'],
+    'Competências': [
+      'competences/product-representative',
+      'competences/analyst',
+      'competences/architect',
+      'competences/designer',
+      'competences/developer',
+      'competences/manager',
+      'competences/tester',
+    ],
   },
 };
