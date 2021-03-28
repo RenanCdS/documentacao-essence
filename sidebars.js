@@ -10,6 +10,12 @@ module.exports = {
               {
                 Oportunidade: [
                   {
+                    Produtos: [
+                      'areas/client/alphas/opportunity/products/product-vision/product-vision'
+                    ]
+                  },
+                  'areas/client/alphas/opportunity/activities/opportunity-activities',
+                  {
                     Estados: [
                       'areas/client/alphas/opportunity/levels/addressed',
                       'areas/client/alphas/opportunity/levels/benefit-accrued',
@@ -19,24 +25,17 @@ module.exports = {
                       'areas/client/alphas/opportunity/levels/viable',
                     ]
                   },
-                  {
-                    Produtos: [
-                      {
-                        'Visão do produto': [
-                          {
-                            Atividades: [
-                              'areas/client/alphas/opportunity/product/activities/identify-needs',
-                              'areas/client/alphas/opportunity/product/activities/preview-solution',
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
+
                 ]
               },
               {
                 Stakeholder: [
+                  {
+                    Produtos: [
+                      'areas/client/alphas/stakeholder/products/stakeholder-network/stakeholder-network'
+                    ]
+                  },
+                  'areas/client/alphas/stakeholder/activities/stakeholder-activities',
                   {
                     Estados: [
                       'areas/client/alphas/stakeholder/levels/in-agreement',
@@ -47,11 +46,6 @@ module.exports = {
                       'areas/client/alphas/stakeholder/levels/satisfied-in-use',
                     ]
                   },
-                  {
-                    Produtos: [
-                      'areas/client/alphas/stakeholder/product/stakeholder-network/stakeholder-network-index'
-                    ]
-                  }
                 ]
               }
             ]
@@ -75,16 +69,9 @@ module.exports = {
                   },
                   {
                     Produtos: [
-                      {
-                        'Visão do produto': [
-                          {
-                            Atividades: [
-                              'areas/client/alphas/opportunity/product/activities/identify-needs',
-                              'areas/client/alphas/opportunity/product/activities/preview-solution',
-                            ]
-                          }
-                        ]
-                      }
+                      'areas/solution/alphas/requirements/products/definition-of-done/definition-of-done',
+                      'areas/solution/alphas/requirements/products/system-document/system-document',
+                      'areas/solution/alphas/requirements/products/user-stories/user-stories',
                     ]
                   }
                 ]
@@ -107,7 +94,6 @@ module.exports = {
                         'Rede de Stakeholders': [
                           {
                             Atividades: [
-                              'areas/client/alphas/stakeholder/product/activities/stakeholder-identification'
                             ]
                           }
                         ]
@@ -141,8 +127,8 @@ module.exports = {
                         'Visão do produto': [
                           {
                             Atividades: [
-                              'areas/client/alphas/opportunity/product/activities/identify-needs',
-                              'areas/client/alphas/opportunity/product/activities/preview-solution',
+                              'areas/client/alphas/opportunity/products/activities/identify-needs',
+                              'areas/client/alphas/opportunity/products/activities/preview-solution',
                             ]
                           }
                         ]
@@ -169,7 +155,6 @@ module.exports = {
                         'Rede de Stakeholders': [
                           {
                             Atividades: [
-                              'areas/client/alphas/stakeholder/product/activities/stakeholder-identification'
                             ]
                           }
                         ]
@@ -196,7 +181,6 @@ module.exports = {
                         'Rede de Stakeholders': [
                           {
                             Atividades: [
-                              'areas/client/alphas/stakeholder/product/activities/stakeholder-identification'
                             ]
                           }
                         ]
