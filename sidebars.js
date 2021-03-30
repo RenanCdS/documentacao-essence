@@ -66,6 +66,7 @@ module.exports = {
                       'areas/client/alphas/opportunity/levels/viable',
                     ]
                   },
+                  'areas/solution/alphas/requirements/activities/requirement-activities',
                   {
                     Produtos: [
                       'areas/solution/alphas/requirements/products/definition-of-done/definition-of-done',
@@ -87,6 +88,7 @@ module.exports = {
                       'areas/client/alphas/stakeholder/levels/satisfied-in-use',
                     ]
                   },
+                  'areas/solution/alphas/software-system/activities/software-system-activities',
                   {
                     Produtos: [
                       {
@@ -120,6 +122,7 @@ module.exports = {
                       'areas/client/alphas/opportunity/levels/viable',
                     ]
                   },
+                  'areas/endeavor/alphas/team/activities/team-activities',
                   {
                     Produtos: [
                       {
@@ -148,6 +151,7 @@ module.exports = {
                       'areas/client/alphas/stakeholder/levels/satisfied-in-use',
                     ]
                   },
+                  'areas/endeavor/alphas/way-of-working/activities/way-of-working-activities',
                   {
                     Produtos: [
                       {
@@ -174,6 +178,7 @@ module.exports = {
                       'areas/client/alphas/stakeholder/levels/satisfied-in-use',
                     ]
                   },
+                  'areas/endeavor/alphas/work/activities/work-activities',
                   {
                     Produtos: [
                       {
