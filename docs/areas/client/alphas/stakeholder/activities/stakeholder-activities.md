@@ -9,7 +9,7 @@ sidebar_label: Atividades
 ## Espaço de atividade -  Explorar possibilidades
 ### Identificação de stakeholders
 
-Reunião realizada a cada iteração junto ao time para identficar, através de debates e análises, os principais stakeholders presentes no projeto bem como a relação entre os mesmos.
+- Realizar reunião com o time para identficar, através de debates e análises, os principais stakeholders presentes no projeto bem como a relação entre os mesmos.
 
 #### Competência => [Representante do produto](/docs/competences/product-representative)
 
