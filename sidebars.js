@@ -58,12 +58,12 @@ module.exports = {
                 Requisitos: [
                   {
                     Estados: [
-                      'areas/client/alphas/opportunity/levels/addressed',
-                      'areas/client/alphas/opportunity/levels/benefit-accrued',
-                      'areas/client/alphas/opportunity/levels/identified',
-                      'areas/client/alphas/opportunity/levels/solution-needed',
-                      'areas/client/alphas/opportunity/levels/value-established',
-                      'areas/client/alphas/opportunity/levels/viable',
+                      'areas/solution/alphas/requirements/levels/requirements-conceived',
+                      'areas/solution/alphas/requirements/levels/requirements-bounded',
+                      'areas/solution/alphas/requirements/levels/requirements-coeherent',
+                      'areas/solution/alphas/requirements/levels/requirements-acceptable',
+                      'areas/solution/alphas/requirements/levels/requirements-addressed',
+                      'areas/solution/alphas/requirements/levels/requirements-fullfilled',
                     ]
                   },
                   'areas/solution/alphas/requirements/activities/requirement-activities',
