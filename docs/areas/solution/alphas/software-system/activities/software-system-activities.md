@@ -17,10 +17,10 @@ sidebar_label: Atividades
 
 ### Implementar funcionalidades
 
-- Recuperar requisitos e diagrams feitos anteriormente
+- Recuperar requisitos e diagramas feitos anteriormente
 - Implementar sistema com base nos diagramas e manter padronização mantendo boas práticas de programação
 
-#### Competência => [Designer](/docs/competences/developer)
+#### Competência => [Developer](/docs/competences/developer)
 
 ## Espaço de atividade - Testar o sistema
 ### Teste unitário
