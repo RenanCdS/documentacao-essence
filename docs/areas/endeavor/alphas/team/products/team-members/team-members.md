@@ -6,6 +6,6 @@ sidebar_label: Membros do time
 - [Visão geral](#visão-geral)
 - [Atividades relacionadas](#atividades-relacionadas)
 
-![Workflow](/img/client/products/product-vision/product-vision-workflow.png)
+![Workflow](/img/endeavor/products/team-members/team-members-workflow.png)
 
 ## Visão geral

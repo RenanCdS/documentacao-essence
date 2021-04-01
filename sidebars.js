@@ -91,14 +91,9 @@ module.exports = {
                   'areas/solution/alphas/software-system/activities/software-system-activities',
                   {
                     Produtos: [
-                      {
-                        'Rede de Stakeholders': [
-                          {
-                            Atividades: [
-                            ]
-                          }
-                        ]
-                      }
+                      'areas/solution/alphas/software-system/products/prototype/prototype',
+                      'areas/solution/alphas/software-system/products/front-end/front-end',
+                      'areas/solution/alphas/software-system/products/deploy/deploy',
                     ]
                   }
                 ]
@@ -125,16 +120,7 @@ module.exports = {
                   'areas/endeavor/alphas/team/activities/team-activities',
                   {
                     Produtos: [
-                      {
-                        'Visão do produto': [
-                          {
-                            Atividades: [
-                              'areas/client/alphas/opportunity/products/activities/identify-needs',
-                              'areas/client/alphas/opportunity/products/activities/preview-solution',
-                            ]
-                          }
-                        ]
-                      }
+                      'areas/endeavor/alphas/team/products/team-members/team-members'
                     ]
                   }
                 ]
@@ -154,14 +140,7 @@ module.exports = {
                   'areas/endeavor/alphas/way-of-working/activities/way-of-working-activities',
                   {
                     Produtos: [
-                      {
-                        'Rede de Stakeholders': [
-                          {
-                            Atividades: [
-                            ]
-                          }
-                        ]
-                      }
+                      'areas/endeavor/alphas/way-of-working/products/way-of-working/way-of-working-document'
                     ]
                   }
                 ]
@@ -181,14 +160,7 @@ module.exports = {
                   'areas/endeavor/alphas/work/activities/work-activities',
                   {
                     Produtos: [
-                      {
-                        'Rede de Stakeholders': [
-                          {
-                            Atividades: [
-                            ]
-                          }
-                        ]
-                      }
+                      'areas/endeavor/alphas/work/products/task-board/task-board'
                     ]
                   }
                 ]
