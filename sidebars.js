@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Areas: [
+    'Áreas': [
       {
         Cliente: [
           'areas/client/client-index',
@@ -179,5 +179,8 @@ module.exports = {
       'competences/manager',
       'competences/tester',
     ],
+    'Membros': [
+      'members/members'
+    ]
   },
 };
