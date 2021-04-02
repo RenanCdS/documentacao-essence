@@ -1,7 +1,7 @@
 ---
 id: retired
-title: Retired
-sidebar_label: Retired
+title: Descontinuado
+sidebar_label: Descontinuado
 ---
 
 - [ ] Substituído ou discontinuado
